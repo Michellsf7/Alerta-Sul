@@ -1,4 +1,13 @@
-const apiKey = 'DIGITE A SUA API AQUI'; // Substitua pela sua chave API
+function clickMenu() {
+    if (itens.style.display == 'block') {
+        itens.style.display = 'none'
+    } else {
+        itens.style.display = 'block'
+    }
+}
+
+
+/* const apiKey = 'DIGITE A SUA API AQUI'; // Substitua pela sua chave API
 const defaultCity = 'Porto Alegre'; // Cidade padrão
 let map;
 
@@ -107,7 +116,7 @@ async function fetchWeatherByCoords(lat, lon) {
         document.getElementById('weather').innerHTML = 'Erro ao carregar dados: ' + error.message;
     }
 }
-
+*/
 // Inicializa o mapa
 function initMap() {
     map = L.map('map').setView([-30.0346, -51.2177], 6); // Posição padrão em Porto Alegre

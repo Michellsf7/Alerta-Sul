@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 /* Reset básico */
 * {
   margin: 0;
@@ -7,10 +9,11 @@
 
 body {
   font-family: 'Arial', sans-serif;
-  background-image: url('/Imagens/earth-seen-from-space.jpg'); /* Substitua pelo caminho da sua imagem */
+  background-image: url('../Imagens/earth-seen-from-space.jpg'); /* Substitua pelo caminho da sua imagem */
   background-size: cover; /* Faz a imagem cobrir todo o fundo */
   background-position: center; /* Centraliza a imagem */
   color: #ffffff;
+  overflow-y: hidden;
 }
 
 /* Navbar */
@@ -132,5 +135,6 @@ footer p {
 }
 
 .social-links a:hover {
-  color: #0097a7; /* Cor de hover */
+  /* color: #0097a7; Cor de hover */
+  color: white;
 }

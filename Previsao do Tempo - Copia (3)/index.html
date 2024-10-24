@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portal de Alerta Climático</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="../Imagens/alerta-meteorologico.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
@@ -16,7 +17,7 @@
     <nav class="navbar">
         <div class="navbar-container">
             <a href="#" class="navbar-logo">
-                <img src="/Imagens/Dia do planeta terra azul e verde moderno Post do instagram.png" alt="Portal Climático" style="height: 50px;" />
+                <img src="../Imagens/Dia do planeta terra azul e verde moderno Post do instagram.png" alt="Portal Climático" style="height: 50px;" />
             </a>
             <ul class="navbar-menu">
                 <li><a href="#" class="navbar-item">Início</a></li>
@@ -40,16 +41,18 @@
             <button id="getLocationButton">Obter temperatura local</button>
             <div id="localWeather"></div>
         </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3523260.74406697!2d-53.84965045!3d-30.41669715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9504720c40b45803%3A0xad9fb3dbaf9f73de!2sRio%20Grande%20do%20Sul!5e0!3m2!1spt-BR!2sbr!4v1729787606184!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         
-        <!-- Weather Info Widget -->
-        <div id="weather">Carregando dados...</div>
+        <!-- Weather Info Widget 
+        <div id="weather">Carregando dados...</div> -->
         
-        <!-- Map Widget -->
-        <div id="map" style="height: 400px;"></div>
+        <!-- Map Widget 
+        <div id="map" style="height: 400px;"></div> -->
     </div>
 
-    <!-- Forecast Widget -->
-    <div id="forecast" style="margin-top: 20px;"></div>
+    <!-- Forecast Widget 
+    <div id="forecast" style="margin-top: 20px;"></div> -->
 
     <!-- Footer Widget -->
     <footer>
@@ -63,5 +66,4 @@
     
     <script src="script.js"></script>
 </body>
-
 </html>
