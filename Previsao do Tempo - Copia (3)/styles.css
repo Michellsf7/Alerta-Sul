@@ -22,7 +22,11 @@ body {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
 }
 
-
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 .navbar-logo img {
   border-radius: 50%; /* Bordas arredondadas na imagem */
@@ -132,4 +136,10 @@ footer p {
 .social-links a:hover {
   /* color: #0097a7; Cor de hover */
   color: white;
+}
+
+.social-links img {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
 }
