@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Alerta Climático</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar Widget -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <a href="#" class="navbar-logo">
+                <img src="/Imagens/Dia do planeta terra azul e verde moderno Post do instagram.png" alt="Portal Climático" style="height: 50px;" />
+            </a>
+            <ul class="navbar-menu">
+                <li><a href="#" class="navbar-item">Início</a></li>
+                <li><a href="#" class="navbar-item">Sobre</a></li>
+                <li><a href="#" class="navbar-item">Previsão</a></li>
+                <li><a href="#" class="navbar-item">Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <h1>Alerta Climático do Sul</h1>
+    
+        
+        <!-- Weather Search Widget -->
+        <div class="weather-search">
+            <input type="text" id="cityInput" placeholder="Digite a cidade..." />
+            <button id="searchButton">Buscar</button>
+            <button id="clearButton">Limpar</button>
+            <button id="getLocationButton">Obter temperatura local</button>
+            <div id="localWeather"></div>
+        </div>
+        
+        <!-- Weather Info Widget -->
+        <div id="weather">Carregando dados...</div>
+        
+        <!-- Map Widget -->
+        <div id="map" style="height: 400px;"></div>
+    </div>
+
+    <!-- Forecast Widget -->
+    <div id="forecast" style="margin-top: 20px;"></div>
+
+    <!-- Footer Widget -->
+    <footer>
+        <p>&copy; 2024 Portal de Alerta Climático do Sul. Todos os direitos reservados.</p>
+        <div class="social-links">
+            <a href="#" target="_blank">Youtube</a>
+            <a href="#" target="_blank">Twitter</a>
+            <a href="#" target="_blank">Instagram</a>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
