@@ -144,11 +144,11 @@ footer p {
   height: 25px;
 }
 
-a#whatsapp:hover {
+/* a#whatsapp:hover {
   border: rgba(255, 255, 255, 0.637);
   transform: translate(-3px, -3px);
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.623);
   transition: transform .3s;
   box-sizing: border-box;
   border-radius: 50%;
-}
+}  */
